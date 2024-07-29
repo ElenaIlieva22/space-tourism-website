@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import { Homepage } from './pages/Homepage/Homepage';
-
+// import { Homepage } from './pages/Homepage/Homepage';
+import { Crew } from './pages/Crew/Crew';
+ 
 
 function App() {
   return (
     <div>
-      <Homepage/>
+      {/* <Homepage/> */}
+      <Crew/>
+     
     </div>
   );
 }
