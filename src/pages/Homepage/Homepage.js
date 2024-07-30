@@ -5,7 +5,6 @@ import Header from '../../components/Header';
 const Homepage = () => {
     return (
         <div className="Homepage-container">
-            <Header />
             <div className='background'>
                 <img src='./images/Bitmap Copy.png' className="bitmap-copy" alt="Bitmap Copy" />
                 <img src='./images/Bitmap.png' className="Bitmap" alt="Bitmap" />
