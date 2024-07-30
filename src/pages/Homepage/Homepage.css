@@ -1,7 +1,6 @@
 .Homepage-container{
-    width: 1440px;
-    height: 900px;
-    /* background-image: url('./images/Bitmap.png'); */
+    margin: auto;
+    background-image: url('../../assets/Mask.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

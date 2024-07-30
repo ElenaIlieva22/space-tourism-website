@@ -1,7 +1,7 @@
 import React from 'react';
 import './Crew.css'
 
-export function Crew() {
+const Crew = () => {
     return (
         <div className="crew-container">
             <div className='background'>
@@ -22,3 +22,5 @@ export function Crew() {
         </div>
     )
 }
+
+export default Crew;
