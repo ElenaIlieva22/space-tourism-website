@@ -11,10 +11,9 @@
 }
 
 .Homepage-content {
-    position: absolute;
+    position: relative;
     top: 70%;
     left: 25%;
-    transform: translate(-50%, -50%);
     text-align: left;
     color: rgb(208, 214, 249);
     width: 27%;
