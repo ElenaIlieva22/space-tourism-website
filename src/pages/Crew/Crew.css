@@ -4,9 +4,13 @@
 
 .background {
     display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
-.crew-content {
+.crew-member {
     position: absolute;
     top: 70%;
     left: 25%;
@@ -14,6 +18,7 @@
     text-align: left;
     color: rgb(208, 214, 249);
     width: 27%;
+    z-index: 2;
 }
 
 .crew-function {
@@ -26,9 +31,9 @@
 
 .crew-name {
     font-family: "Bellefair", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 150px;
+    font-size: 80px;
     margin: 0px;
 }
 
@@ -37,5 +42,19 @@
     font-weight: 100px;
     font-style: normal;
     font-size: 18px;
+    width: 100%;
+}
 
+.crew-pic {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.crew-douglas-hurley {
+    width: 100%;
+    height: auto;
 }
