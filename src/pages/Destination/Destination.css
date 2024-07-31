@@ -1,28 +1,38 @@
-.crew-container{
+.destination-container {
     display: border-box;
     margin: 0 auto;
 }
-
-.background {
+.destination-background {
     display: flex;
     position: absolute;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: 1;
+    margin: auto;
 }
 
-.crew-member {
+.destination-content {
     position: absolute;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 10%;
     text-align: left;
     color: rgb(208, 214, 249);
     width: 27%;
     z-index: 2;
 }
 
-.crew-function {
+.destination-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: left;
+    color: rgb(208, 214, 249);
+    width: 27%;
+    z-index: 2;
+}
+
+.dest-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -30,32 +40,18 @@
     letter-spacing: 4.75px;
 }
 
-.crew-name {
+.dest-inner {
     font-family: "Bellefair", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    font-size: 150px;
     margin: 0px;
 }
 
-.Crew-content {
+.dest-content {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 18px;
-    width: 100%;
-}
 
-.crew-pic {
-    position: static;
-    transform: none;
-    margin-top: 20px;
-    height: auto;
-    text-align: center;
-    z-index: 2;
-}
-
-.crew-douglas-hurley {
-    width: 100%;
-    height: auto;
 }
