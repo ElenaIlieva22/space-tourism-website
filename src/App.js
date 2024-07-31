@@ -5,9 +5,11 @@ import Crew from './pages/Crew/Crew';
 // import Destination from './pages/Destination/Destination';
 // import Technology from './pages/Technology/Technology';
 import Header from './components/Header';
+import './App.css';
 
 function App() {
   return (
+    <div className='app-container '>
     <Router>
       <Header />
       <Routes>
@@ -17,6 +19,7 @@ function App() {
         {/* <Route path="/technology" element={<Technology />} /> */}
       </Routes>
     </Router>
+    </div>
   );
 }
 

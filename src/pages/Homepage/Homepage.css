@@ -1,25 +1,46 @@
-.Homepage-container{
-    margin: auto;
-    background-image: url('../../assets/Mask.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.homepage-container {
+    display: border-box;
+    margin: 0;
 }
+
 
 .background {
     display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
-.Homepage-content {
-    position: relative;
-    top: 70%;
-    left: 25%;
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .second {
+    padding-left: 20%;
+    right: 0;
+    width: 80%;
+    z-index: 1;
+    opacity: 0.7;
+  }
+
+
+.homepage-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
     text-align: left;
     color: rgb(208, 214, 249);
     width: 27%;
+    z-index: 2;
 }
 
-.Home-heading {
+.home-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -27,7 +48,7 @@
     letter-spacing: 4.75px;
 }
 
-.Home-inner {
+.home-inner {
     font-family: "Bellefair", serif;
     font-weight: 400;
     font-style: normal;
@@ -35,10 +56,27 @@
     margin: 0px;
 }
 
-.Home-content {
+.home-content {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 18px;
 
+}
+
+.explore-btn {
+    width: 274px;
+    height: 274px;
+    font-size: 160%;
+    border-radius: 50%;
+    border: none;
+    font-family: "Bellefair", serif;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 10;
+    transition: box-shadow 0.3s ease;
+}
+
+.explore-btn:hover {
+    box-shadow: 0 0 0 175px rgba(70, 70, 70, 0.342);
 }

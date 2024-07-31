@@ -1,8 +1,9 @@
 .app-container {
     display: block;
     width: 1440px;
-    margin: auto;
-    background-image: url('../../assets/Mask.png');
+    height: 900px;
+    margin: 0;
+    padding: 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
