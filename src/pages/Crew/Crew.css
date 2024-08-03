@@ -8,7 +8,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    margin: auto;
+    margin: 0;
 }
 
 .crew-bg {
@@ -26,6 +26,7 @@
     color: rgb(208, 214, 249);
     width: 27%;
     z-index: 2;
+    transform: translateY(-10%);
 }
 
 .crew-heading {
@@ -42,6 +43,7 @@
     font-style: normal;
     font-size: 24px;
     width: 100%;
+    padding-top: 50px;
 }
 
 .crew-name {
@@ -52,9 +54,23 @@
     width: 100%;
 }
 
-.dest-text {
+.crew-text {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100px;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.crew-pic {
+    position:absolute;
+    z-index: 3; 
+    top: 60%; 
+    left: 70%; 
+    transform: translate(-50%, -45%); 
+}
+
+.crew-douglas-hurley {
+    width: 80%; 
+    max-width: 700px; 
+    height: auto;
 }
