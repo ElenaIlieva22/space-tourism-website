@@ -5,7 +5,7 @@ const Homepage = () => {
     return (
         <div className="homepage-container">
             <div className='background'>
-                <img src='./images/Bitmap Copy.png' className="image-overlay first" alt="Bitmap Copy" />
+                <img src='./images/BitmapCopy.png' className="image-overlay first" alt="Bitmap Copy" />
                 <img src='./images/Bitmap.png' className="image-overlay second" alt="Bitmap" />
             </div>
             <div className='homepage-content'>
