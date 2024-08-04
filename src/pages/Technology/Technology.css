@@ -1,6 +1,8 @@
 .tech-container {
     display: border-box;
     margin: 0 auto;
+    border: 5px solid yellow;
+    width: 100%;
 }
 
 .tech-background {
@@ -37,14 +39,28 @@
     font-style: normal;
     font-size: 28px;
     letter-spacing: 4.75px;
+    margin-left: 40px;
+    border: 1px solid green;
 }
 
-/* .tech-content-box {
-    
-} */
+.tech-content-box {
+    border: 1px solid blue;
+    margin-left: 30px;
+}
 
 .tech-inscription {
     display: flex;
+    margin-left: 20px;
+}
+
+.btns {
+    border: 1px solid red;
+    flex-direction: column;
+   margin-left: 20px;
+}
+
+.btn {
+    color: black;
 }
 
 .tech-terminology {
@@ -70,4 +86,10 @@
     font-size: 18px;
     color: rgb(208, 214, 249);
     width: 50%;
+}
+
+.tech-pic {
+    width: 70%; 
+    max-width: 800px; 
+    height: auto;
 }
