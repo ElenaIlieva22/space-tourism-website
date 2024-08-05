@@ -1,95 +1,110 @@
 .tech-container {
-    display: border-box;
-    margin: 0 auto;
-    border: 5px solid yellow;
-    width: 100%;
+  display: border-box;
+  margin: 0 auto;
+  /* border: 5px solid yellow; */
+  width: 100%;
 }
 
 .tech-background {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    margin: 0;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  margin: 0;
 }
 
 .tech-bg {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 99.6%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99.6%;
 }
 
 .tech-content {
-    position: relative;
-    text-align: left;
-    color: rgb(208, 214, 249);
-    z-index: 2;
-    transform: translateY(10%);
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    border: 1px solid red;
+  position: relative;
+  text-align: left;
+  color: rgb(208, 214, 249);
+  z-index: 2;
+  transform: translateY(10%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid red; */
+}
+
+.tech-content-box-text {
+    margin-left: 130px;
 }
 
 .tech-heading {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 28px;
-    letter-spacing: 4.75px;
-    margin-left: 40px;
-    border: 1px solid green;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+  /* border: 1px solid green; */
 }
 
 .tech-content-box {
-    border: 1px solid blue;
-    margin-left: 30px;
+  /* border: 1px solid blue; */
+  margin-left: 30px;
 }
 
 .tech-inscription {
-    display: flex;
-    margin-left: 20px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .btns {
-    border: 1px solid red;
-    flex-direction: column;
-   margin-left: 20px;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  margin-left: 20px;
+  width: 10%;
 }
 
 .btn {
-    color: black;
+  /* border: 1px solid black; */
+  border-radius: 50%;
 }
 
 .tech-terminology {
-    font-family: "Barlow Condensed", sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    color: rgb(208, 214, 249);
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(208, 214, 249);
 }
 
 .tech-title {
-    font-family: "Bellefair", serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 56px;
-    width: 100%;
-    color: rgb(163, 33, 33);
+  font-family: "Bellefair", serif;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 56px;
+  width: 100%;
+  color: rgb(255, 255, 255);
 }
 
 .tech-text {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 18px;
-    color: rgb(208, 214, 249);
-    width: 50%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 18px;
+  color: rgb(208, 214, 249);
+  width: 50%;
+}
+
+.tech-pic-box {
+    width: 100%;
 }
 
 .tech-pic {
-    width: 70%; 
-    max-width: 800px; 
-    height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 70%;
+  display: block;
+  margin: 90px 22px;
 }
