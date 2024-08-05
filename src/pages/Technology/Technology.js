@@ -4,24 +4,38 @@ import "./Technology.css";
 const Technology = () => {
   return (
     <div className="tech-container">
-      {/* <div className="tech-background">
+      <div className="tech-background">
         <img
           src="./images/technology/background-technology-desktop.jpg"
           className="tech-bg"
           alt="Techonoly background"
         />
-      </div> */}
+      </div>
 
       <div className="tech-content">
-        <div>
+        <div className="tech-content-box-text">
           <div className="tech-heading">
             <p>03 SPACE LAUNCH 101</p>
           </div>
           <div className="tech-inscription">
-            <div>
-              <p>buttons</p>
+            <div className="btns">
+              <img
+                src="./images/technology/OvalCopy.png"
+                className="btn"
+                alt="circle btn 1"
+              />
+              <img
+                src="./images/technology/OvalCopy.png"
+                className="btn"
+                alt="circle btn 2"
+              />
+              <img
+                src="./images/technology/OvalCopy.png"
+                className="btn"
+                alt="circle btn 3"
+              />
             </div>
-            <div>
+            <div className="tech-content-box">
               <p className="tech-terminology">THE TERMINOLOGY...</p>
               <h2 className="tech-title">LAUNCH VECHICLE</h2>
               <p className="tech-text">
@@ -34,9 +48,10 @@ const Technology = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="tech-pic-box">
           <img
             src="./images/technology/image-launch-vehicle-portrait.jpg"
+            className="tech-pic"
             alt="Launch vehicle"
           />
         </div>
