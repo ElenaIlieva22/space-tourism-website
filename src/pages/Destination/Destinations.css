@@ -27,7 +27,6 @@
     width: 27%;
     z-index: 2;
 }
-
 .destination-content {
     position: absolute;
     top: 50%;
@@ -37,7 +36,6 @@
     width: 27%;
     z-index: 2;
 }
-
 .dest-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
@@ -45,7 +43,6 @@
     font-size: 28px;
     letter-spacing: 4.75px;
 }
-
 .dest-inner {
     font-family: "Bellefair", serif;
     font-weight: 400;
@@ -53,7 +50,6 @@
     font-size: 150px;
     margin: 0px;
 }
-
 .dest-content {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100px;

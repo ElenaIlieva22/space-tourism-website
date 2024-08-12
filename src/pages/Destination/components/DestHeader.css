@@ -1,0 +1,85 @@
+.dest-header-container {
+    display: flex;
+    justify-content: center;
+    width:43vw;
+    height: 10vh;
+    z-index: 10;
+    float: right;
+    position: relative;
+    margin-top: 30%;
+}
+
+.dest-header-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right:210%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-size: 95%;
+  z-index: 1;
+}
+
+.dest-header-container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  height: 50vh;
+  z-index: 1;
+}
+
+.dest-nav {
+    margin: auto;
+    
+}
+
+.dest-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+  }
+
+
+.dest-links li {
+    display: inline;
+    
+  }
+  
+
+.dest-links a {
+    text-decoration: none;
+    color: #941010;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 40px;
+    position: relative;
+  }
+
+  .dest-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.dest-links a:hover::after {
+  background-color: rgba(32, 32, 126, 0.384);
+}
+
+.dest-links a.active::after {
+  background-color: rgb(175, 16, 16);
+}
+
+.dest-links a:hover.active::after {
+  background-color: white;
+}

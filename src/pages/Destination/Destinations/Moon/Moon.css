@@ -1,0 +1,55 @@
+.moon-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+}
+
+
+.moon-heading {
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgb(208, 214, 249);
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    z-index: 9;
+}
+
+.moon {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.moon-content {
+    position: absolute;
+    top: 70vh;
+    left: 60%;
+    transform: translateX(-50%);
+    text-align: left;
+    color: rgb(208, 214, 249);
+    width: 27%;
+    z-index: 9;
+}
+
+.moon-inner {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-size: 150px;
+    margin: 0;
+}
+
+.moon-txt {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
