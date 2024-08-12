@@ -1,28 +1,35 @@
-.crew-container{
+.crew-container {
     display: border-box;
     margin: 0 auto;
 }
-
-.background {
-    display: flex;
+.crew-background {
     position: absolute;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: 1;
+    margin: 0;
 }
 
-.crew-member {
-    position: absolute;
-    top: 70%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+.crew-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.6%;
+  }
+
+.crew-content {
+    position: relative;
     text-align: left;
     color: rgb(208, 214, 249);
-    width: 27%;
     z-index: 2;
+    transform: translateY(10%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.crew-function {
+.crew-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -30,32 +37,39 @@
     letter-spacing: 4.75px;
 }
 
-.crew-name {
+.crew-function {
     font-family: "Bellefair", serif;
-    font-weight: 300;
+    font-weight: 100px;
     font-style: normal;
-    font-size: 80px;
-    margin: 0px;
+    font-size: 32px;
+    width: 100%;
+    padding-top: 50px;
 }
 
-.Crew-content {
+.crew-name {
+    font-family: "Bellefair", serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 56px; 
+    width: 150%;
+    border: 1px solid red;
+}
+
+.crew-text {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 18px;
-    width: 100%;
+    color: rgb(208, 214, 249);
+
 }
 
 .crew-pic {
-    position: static;
-    transform: none;
-    margin-top: 20px;
-    height: auto;
-    text-align: center;
-    z-index: 2;
+    z-index: 3; 
 }
 
 .crew-douglas-hurley {
-    width: 100%;
+    width: 70%; 
+    max-width: 800px; 
     height: auto;
 }
