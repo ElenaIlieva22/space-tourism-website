@@ -94,6 +94,7 @@
     cursor: pointer;
     border-radius: 50px;
     gap: 10px;
+    border-color: yellowgreen;
   }
 
   .crew-navigation button:hover {
