@@ -36,52 +36,6 @@ const Crew = () => {
 
   const [currentCrew, setCurrentCrew] = useState(0);
 
-  //   const nextCrew = () => {
-  //     setCurrentCrew((prevIndex) =>
-  //       prevIndex === crewMembers.length - 1 ? 0 : prevIndex + 1
-  //     );
-  //   };
-
-  //   const prevCrew = () => {
-  //     setCurrentCrew((prevIndex) =>
-  //       prevIndex === 0 ? crewMembers.length - 1 : prevIndex - 1
-  //     );
-  //   };
-
-  //   return (
-  //     <div className="crew-container">
-  //       <div className="crew-background">
-  //         <img
-  //           src="./images/crew/background-crew-desktop.jpg"
-  //           className="crew-bg"
-  //           alt="Bitmap Copy"
-  //         />
-  //       </div>
-  //       <div className="crew-content">
-  //         <div className="crew-inscription" style={{ width: "30%" }}>
-  //           <p className="crew-heading">02 MEET YOUR CREW</p>
-  //           <h4 className="crew-function">{crewMembers[currentCrew].function}</h4>
-  //           <h2 className="crew-name">{crewMembers[currentCrew].name}</h2>
-  //           <p className="crew-text">{crewMembers[currentCrew].text}</p>
-  //         </div>
-
-  //         <div className="crew-pic">
-  //           <img
-  //             src={crewMembers[currentCrew].imgSrc}
-  //             className="crew-douglas-hurley"
-  //             alt={`Team member ${crewMembers[currentCrew].name}`}
-  //           />
-  //         </div>
-
-  //         <div className="crew-navigation">
-  //           <button onClick={prevCrew}>Previous</button>
-  //           <button onClick={nextCrew}>Next</button>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // };
-
   const goToCrew = (index) => {
     setCurrentCrew(index);
   };
@@ -104,11 +58,7 @@ const Crew = () => {
           <p className="crew-text">{crewMembers[currentCrew].text}</p>
         </div>
 
-        <div className="crew-navigation">
-          {crewMembers.map((member, index) => (
-            <button key={member.id} onClick={() => goToCrew(index)}></button>
-          ))}
-        </div>
+    
         
         <div className="crew-pic">
           <img
@@ -118,7 +68,11 @@ const Crew = () => {
           />
         </div>
 
-        
+        <div className="crew-navigation">
+          {crewMembers.map((member, index) => (
+            <button key={member.id} onClick={() => goToCrew(index)}></button>
+          ))}
+        </div>
       </div>
     </div>
   );
