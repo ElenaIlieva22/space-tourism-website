@@ -7,7 +7,7 @@
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 99.6%;
     z-index: 1;
     margin: 0;
 }
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    height: 40rem;
 }
 
 .crew-heading {
@@ -61,27 +62,24 @@
     font-style: normal;
     font-size: 18px;
     color: rgb(208, 214, 249);
-
 }
 
 .crew-pic {
     z-index: 3; 
 }
 
-.crew-douglas-hurley {
-    width: 70%; 
-    max-width: 800px; 
-    height: auto;
+.crew-member {
+    max-height: 96%;
 }
 
 
 .crew-navigation {
     display: flex;
-    justify-content: center;
     gap: 10px;
-    margin-top: 40px;
     align-content: flex-start;
     flex-wrap: wrap;
+    margin-left: 13rem;
+    max-width: 10rem;
   }
  
   
@@ -89,13 +87,14 @@
   .crew-navigation button {
     background-color: transparent;
     border: 1px solid white;
-    color: rgb(117, 16, 16);
+    color: rgb(201, 22, 22);
     padding: 10px 10px;
     cursor: pointer;
     border-radius: 50px;
     gap: 10px;
+    z-index: 5;
   }
 
   .crew-navigation button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #FFFFFF;
   }
