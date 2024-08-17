@@ -1,4 +1,3 @@
-// import React from "react";
 import "./Crew.css";
 import React, { useState } from "react";
 
@@ -63,17 +62,16 @@ const Crew = () => {
         <div className="crew-pic">
           <img
             src={crewMembers[currentCrew].imgSrc}
-            className="crew-douglas-hurley"
+            className="crew-member"
             alt={`Team member ${crewMembers[currentCrew].name}`}
           />
         </div>
-
-        <div className="crew-navigation">
+      </div>
+      <div className="crew-navigation">
           {crewMembers.map((member, index) => (
             <button key={member.id} onClick={() => goToCrew(index)}></button>
           ))}
         </div>
-      </div>
     </div>
   );
 };
