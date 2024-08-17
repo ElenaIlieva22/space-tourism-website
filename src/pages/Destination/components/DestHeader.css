@@ -5,14 +5,15 @@
     height: 10vh;
     z-index: 10;
     float: right;
+    left: 36rem;
     position: relative;
-    margin-top: 30%;
+    top: 20rem;
 }
 
 .dest-header-container::after {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 30rem;
   right:210%;
   transform: translate(-50%, -50%);
   width: 4rem;
@@ -33,51 +34,45 @@
   z-index: 1;
 }
 
-.dest-nav {
-    margin: auto;
-    
-}
-
 .dest-links {
     padding: 0;
-    margin: 0;
     list-style: none;    
   }
 
 
 .dest-links li {
-    display: inline;
-    
+    display: inline;    
   }
   
 
 .dest-links a {
     text-decoration: none;
-    color: #941010;
-    font-size: 18px;
-    padding: 10px;
+    color: #FFFFFF;
+    font-size: 23px;
     font-family: "Barlow Condensed", sans-serif;
-    padding: 40px;
+    padding: 25px;
     position: relative;
+    letter-spacing: 2.7px;
   }
 
   .dest-links a::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 20%;
+    align-items: center;
+    left: 25%;
+    width:50%;
     height: 2px;
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
 
 .dest-links a:hover::after {
-  background-color: rgba(32, 32, 126, 0.384);
+  background-color: rgba(208,214,248, 0.384);
 }
 
 .dest-links a.active::after {
-  background-color: rgb(175, 16, 16);
+  background-color: #FFFFFF;
 }
 
 .dest-links a:hover.active::after {

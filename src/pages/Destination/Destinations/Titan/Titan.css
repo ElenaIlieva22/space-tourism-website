@@ -1,9 +1,9 @@
-.moon-container {
+.titan-container {
     box-sizing: border-box;
     margin: 0 auto;
 }
 
-.moon-background {
+.titan-background {
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -20,7 +20,7 @@
   }
 
 
-.moon-heading {
+.titan-heading {
     position: absolute;
     top: 13rem;
     left: 11rem;
@@ -32,7 +32,7 @@
     z-index: 9;
 }
 
-.moon {
+.titan {
     position: absolute;
     object-fit: cover;
     z-index: 1;
@@ -42,7 +42,7 @@
     border-radius: 50%;
 }
 
-.moon-content {
+.titan-content {
     position: absolute;
     top: 25rem;
     left: 83rem;
@@ -53,14 +53,14 @@
     z-index: 9;
 }
 
-.moon-inner {
+.titan-inner {
     font-family: "Bellefair", serif;
     font-weight: 400;
     font-size: 130px;
     margin: 0;
 }
 
-.moon-txt {
+.titan-txt {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
     font-size: 18px;

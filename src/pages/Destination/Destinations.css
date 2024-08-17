@@ -2,40 +2,23 @@
     display: border-box;
     margin: 0 auto;
 }
-.destination-background {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    margin: auto;
-}
 
-.dest-background {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 99.6%;
-  }
 
 .destination-content {
-    position: absolute;
-    top: 50%;
-    left: 10%;
+    position: relative;
     text-align: left;
     color: rgb(208, 214, 249);
-    width: 27%;
     z-index: 2;
+    transform: translateY(10%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
 }
-.destination-content {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    text-align: left;
-    color: rgb(208, 214, 249);
-    width: 27%;
-    z-index: 2;
+.destination-content-box-text {
+    margin-left: 130px;
 }
+
 .dest-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
