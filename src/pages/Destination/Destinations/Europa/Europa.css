@@ -22,8 +22,8 @@
 
 .europa-heading {
     position: absolute;
-    top: 15rem;
-    left: 13rem;
+    top: 13rem;
+    left: 11rem;
     font-family: "Barlow Condensed", sans-serif;
     color: rgb(208, 214, 249);
     font-weight: 100;
@@ -36,16 +36,16 @@
     position: absolute;
     object-fit: cover;
     z-index: 1;
-    top: 25rem;
-    left: 10rem;
+    top: 22rem;
+    left: 14rem;
     border: 2px solid rgb(21, 247, 0);
     border-radius: 50%;
 }
 
 .europa-content {
     position: absolute;
-    top: 60vh;
-    left: 75%;
+    top: 25rem;
+    left: 83rem;
     transform: translateX(-50%);
     text-align: left;
     color: rgb(208, 214, 249);
@@ -56,12 +56,12 @@
 .europa-inner {
     font-family: "Bellefair", serif;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 130px;
     margin: 0;
 }
 
 .europa-txt {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
-    font-size: 18px;
+    letter-spacing: 2.35px;
 }
