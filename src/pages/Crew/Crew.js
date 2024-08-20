@@ -66,7 +66,6 @@ const Crew = () => {
         <div className="crew-pic">
           <img
             src={crewMembers[currentCrew].imgSrc}
-            className={`crew-member crew-member-${crewMembers[currentCrew].id}`}
             alt={`Team member ${crewMembers[currentCrew].name}`}
           />
         </div>
