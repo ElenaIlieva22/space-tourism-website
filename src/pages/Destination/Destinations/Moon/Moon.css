@@ -6,6 +6,11 @@
 .moon-background {
     position: absolute;
     object-fit: cover;
+}
+
+.moon-background {
+    position: absolute;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: 1;
