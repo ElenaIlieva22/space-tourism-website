@@ -8,8 +8,8 @@ const DestHeader = () => {
       <nav className='dest-nav'>
         <ul className='dest-links'>
           <li><NavLink to="./moon" activeClassName="active">MOON</NavLink></li>
-          <li><NavLink to="./europa" activeClassName="active">EUROPA</NavLink></li>
           <li><NavLink to="./mars" activeClassName="active">MARS</NavLink></li>
+          <li><NavLink to="./europa" activeClassName="active">EUROPA</NavLink></li>
           <li><NavLink to="./titan" activeClassName="active">TITAN</NavLink></li>
         </ul>
       </nav>
