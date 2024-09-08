@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+  
   return (
     <header className='header-container'>      
-      <nav className='nav'>
+      <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul className='links'>
-          <li><NavLink to="/" activeClassName="active">00 HOME</NavLink></li>
-          <li><NavLink to="/destination" activeClassName="active">01 DESTINATION</NavLink></li>
-          <li><NavLink to="/crew" activeClassName="active">02 CREW</NavLink></li>
-          <li><NavLink to="/technology" activeClassName="active">03 TECHNOLOGY</NavLink></li>
+          <li><span class="number">00</span><NavLink to="/" activeClassName="active" >HOME</NavLink></li>
+          <li><span class="number">01</span><NavLink to="/destination" activeClassName="active">DESTINATION</NavLink></li>
+          <li><span class="number">02</span><NavLink to="/crew" activeClassName="active">CREW</NavLink></li>
+          <li><span class="number">03</span><NavLink to="/technology" activeClassName="active">TECHNOLOGY</NavLink></li>
         </ul>
       </nav>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
     </header>
   );
 };

@@ -3,7 +3,7 @@
   justify-content: center;
   width:43vw;
   height: 10vh;
-  z-index: 10;
+  z-index: 8;
   float: right;
   left: 36rem;
   position: relative;
@@ -77,4 +77,66 @@ background-color: #FFFFFF;
 
 .dest-links a:hover.active::after {
 background-color: white;
+}
+
+@media (max-width: 786px) and (max-height: 1024px) {
+  .dest-header-container {
+    width: 100vw;
+    height: auto;
+    left: 10%;
+    top: 42rem;
+  }
+
+  .dest-header-container::after {
+    top: 15rem;
+    right: 190%; 
+  }
+
+  .dest-header-container::before {
+    width: 50vw;
+    height: 40vh;
+  }
+
+  .dest-links a {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .dest-header-container {
+    width: 100vw;
+    height: auto;
+    left: 0;
+    top: 16rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dest-header-container::after {
+    top: 5rem;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .dest-header-container::before {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .dest-links {
+    padding: 0;
+    text-align: center;
+  }
+
+  .dest-links li {
+    margin-bottom: 1rem;
+  }
+
+  .dest-links a {
+    font-size: 16px;
+    padding: 15px;
+    letter-spacing: 1.5px;
+  }
 }
