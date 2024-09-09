@@ -1,0 +1,63 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  .crew-container {
+    padding: 0 10px;
+  }
+
+  .crew-content {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .crew-inscription {
+    min-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .crew-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 2rem;
+  }
+
+  .crew-function {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .crew-name {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+
+  .crew-text {
+    font-size: 16px;
+    height: auto;
+    line-height: 1.4;
+    max-width: 100%;
+  }
+
+  .crew-pic {
+    position: relative;
+    margin-top: 20px;
+    justify-content: center;
+    width: 50%;
+    /* display: flex; */
+
+    /* .crew-pic > img {
+      max-width: 50%;
+      height: auto;
+    } */
+  }
+  .crew-navigation {
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .crew-navigation button {
+    width: 20px;
+    height: 20px;
+  }
+}

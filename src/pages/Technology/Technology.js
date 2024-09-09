@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Technology.css";
+import "./tablet.css";
 
 const techPages = [
   {
@@ -70,6 +71,20 @@ const Technology = () => {
             className="tech-pic"
             alt={techPages[currentPage].alt}
           />
+
+          {/* <div className="tech-background-tablet">
+            <img
+              src="\images\technology\background-technology-tablet.jpg"
+              alt="Background tablet version"
+            />
+          </div>
+
+          <div className="tech-pic-tablet">
+            <img
+              src="\images\technology\image-launch-vehicle-landscape.jpg"
+              alt="Launch vehicle tablet version"
+            />
+          </div> */}
         </div>
       </div>
     </div>
