@@ -1,8 +1,8 @@
-.tech-container {
+/* .tech-container {
   display: border-box;
   margin: 0 auto;
   width: 100%;
-}
+} */
 
 .tech-background {
   position: absolute;
@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 99.6%;
+  height: 100%;
 }
 
 .tech-content {
@@ -122,4 +122,13 @@
   height: auto;
   margin-left: 230px;
   object-fit: cover;
+}
+
+.tech-background-tablet{
+  display: none;
+}
+
+
+.tech-pic-tablet {
+  display: none;
 }
