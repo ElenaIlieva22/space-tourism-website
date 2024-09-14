@@ -152,6 +152,7 @@
 @media (max-width: 375px) and (max-height: 850px) {
     .planets-container {
         margin:auto;
+        font-family: "Barlow Condensed", sans-serif;
     }
 
     .planets-background {
@@ -160,21 +161,26 @@
     }
 
     .planets-heading {
+        font-family: "Barlow Condensed", sans-serif;
         top: 6rem;
         left: 4rem;
         font-size: 18px;
         letter-spacing: 2px;
     }
+    .numbers{
+        color: rgb(62, 62, 63);
+        padding-right: 25px;
+    }
 
     .planets {
         top: 12rem;
         left: 28%;
-        border: none;
+        border: 1px solid rgb(21, 247, 0);
+        border-radius: 50%;
     }
     .planets-jpg {
         width: 170px;
         height: 170px;
-
     }
 
     .planets-content {

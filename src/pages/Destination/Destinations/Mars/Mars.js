@@ -8,7 +8,7 @@ const Mars = () => {
                 <img src='/images/destination/background-destination-desktop.jpg' className="planet-background" alt="planet" />
             </div>
             <div className="planets-heading">
-                <h3>01 PICK YOUR DESTINATION</h3>
+                <h3><span class="numbers">01</span>PICK YOUR DESTINATION</h3>
             </div>
             <div className='planets'>
                 <img src='/images/destination/image-mars.png' className="planets-jpg" alt="planets" />

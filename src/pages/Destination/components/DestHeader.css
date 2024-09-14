@@ -108,7 +108,7 @@ background-color: white;
     width: 100vw;
     height: auto;
     left: 0;
-    top: 16rem;
+    top: 20rem;
     flex-direction: column;
     align-items: center;
   }
@@ -136,7 +136,19 @@ background-color: white;
 
   .dest-links a {
     font-size: 16px;
-    padding: 15px;
-    letter-spacing: 1.5px;
+    padding: 10px;
+    letter-spacing: 3.5px;
+  }
+
+  .dest-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 1%;
+    align-items: center;
+    left: 15%;
+    width:66%;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
   }
 }
