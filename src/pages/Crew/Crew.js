@@ -1,5 +1,6 @@
 import "./Crew.css";
 import React, { useState } from "react";
+import "./crew-tablet.css";
 
 const Crew = () => {
   const crewMembers = [
