@@ -170,28 +170,31 @@
   }
 
   .homepage-content {
-    top: 10%;
+    top: 16%;
     left: 10%;
     text-align: center;
     width: 80%;
+    letter-spacing: 2.5px;
   }
 
   .home-heading {
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 17px;
+    letter-spacing: 3px;
   }
 
   .home-inner {
-    font-size: 80px;
+    font-size: 82px;
+    
   }
 
   .home-content {
+    padding-top: 47px;
     font-size: 14px;
   }
 
   .explore-btn {
-    bottom: 5vh;
-    right: 28vw;
+    bottom: 7vh;
+    right: 32vw;
     width: 150px;
     height: 150px;
     font-size: 140%;
