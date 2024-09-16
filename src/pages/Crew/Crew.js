@@ -1,7 +1,7 @@
 import "./Crew.css";
 import React, { useState } from "react";
 import "./crew-tablet.css";
-
+import "./crew-mobile.css";
 const Crew = () => {
   const crewMembers = [
     {
@@ -43,15 +43,10 @@ const Crew = () => {
   return (
     <div className="crew-container">
       <div className="crew-background">
-        <img
-          src="./images/crew/background-crew-desktop.jpg"
-          className="crew-bg"
-          alt="Bitmap Copy"
-        />
       </div>
 
       <div className="crew-content">
-        <div className="crew-inscription" style={{ width: "30%" }}>
+        <div className="crew-inscription" >
           <p className="crew-heading">02 MEET YOUR CREW</p>
           <h4 className="crew-function">{crewMembers[currentCrew].function}</h4>
           <h2 className="crew-name">{crewMembers[currentCrew].name}</h2>
