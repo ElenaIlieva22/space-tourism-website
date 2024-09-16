@@ -42,28 +42,37 @@ const Crew = () => {
 
   return (
     <div className="crew-container">
-      <div className="crew-background">
-      </div>
+      <div className="crew-background"></div>
 
-      <div className="crew-content">
-        <div className="crew-inscription" >
-          <p className="crew-heading">02 MEET YOUR CREW</p>
-          <h4 className="crew-function">{crewMembers[currentCrew].function}</h4>
-          <h2 className="crew-name">{crewMembers[currentCrew].name}</h2>
-          <p className="crew-text">{crewMembers[currentCrew].text}</p>
-
-          <div className="crew-navigation">
-            {crewMembers.map((member, index) => (
-              <button key={member.id} onClick={() => goToCrew(index)}></button>
-            ))}
-          </div>
+      <div className="crew-content-main">
+        <div>
+          <p className="crheadingew-">02 MEET YOUR CREW</p>
         </div>
+        <div className="crew-content">
+          <div className="crew-inscription">
+            <h4 className="crew-function">
+              {crewMembers[currentCrew].function}
+            </h4>
+            <h2 className="crew-name">{crewMembers[currentCrew].name}</h2>
+            <p className="crew-text">{crewMembers[currentCrew].text}</p>
+
+            <div className="crew-navigation">
+              {crewMembers.map((member, index) => (
+                <button
+                  key={member.id}
+                  onClick={() => goToCrew(index)}
+                ></button>
+              ))}
+            </div>
+          </div>
+        
 
         <div className="crew-pic">
           <img
             src={crewMembers[currentCrew].imgSrc}
             alt={`Team member ${crewMembers[currentCrew].name}`}
           />
+        </div>
         </div>
       </div>
     </div>
