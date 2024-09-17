@@ -10,13 +10,17 @@
   z-index: 1;
   top: 0;
   left: 0;
+  background-image: url(../../../public/images/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .tech-bg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+}
+
+.tech-content-main {
 }
 
 .tech-content {
@@ -32,7 +36,7 @@
 }
 
 .tech-content-box-text {
-    width: 70%;
+  width: 70%;
 }
 
 .tech-heading {
@@ -43,6 +47,9 @@
   letter-spacing: 4.75px;
   margin-left: 40px;
   margin-bottom: 100px;
+  position: relative;
+  z-index: 20;
+  color: rgb(254, 250, 250);
 }
 
 .tech-content-box {
@@ -64,7 +71,7 @@
 }
 
 .btn {
-  width: 70px; 
+  width: 70px;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -73,7 +80,7 @@
   border-radius: 50%;
   color: rgb(254, 250, 250);
   font-family: "Bellefair", serif;
-  font-size: 24px; 
+  font-size: 24px;
   cursor: pointer;
   border: 2px solid white;
 }
@@ -106,7 +113,7 @@
   font-style: normal;
   font-size: 18px;
   color: rgb(208, 214, 249);
-  width: 50%;
+  width: 40%;
 }
 
 .tech-pic-box {
@@ -117,13 +124,4 @@
   object-fit: cover;
   padding-top: 100px;
   width: 100%;
-}
-
-.tech-background-tablet{
-  display: none;
-}
-
-
-.tech-pic-tablet {
-  display: none;
 }

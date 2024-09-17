@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 
-
 .crew-background {
   position: fixed;
   top: 0;
@@ -12,29 +11,30 @@
   height: 100%;
   z-index: 1;
   background-image: url(../../../public/images/crew/background-crew-desktop.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .crew-bg {
   object-fit: cover;
 }
-.crew-content-main{
+
+.crew-content-main {
   display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    color: rgb(208, 214, 249);
-    z-index: 2;
-    width: 90%;
-    padding: 5% 5% 0% 5%;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  color: rgb(208, 214, 249);
+  z-index: 2;
+  width: 90%;
+  padding: 5% 5% 0% 5%;
 }
 
 .crew-content {
   position: relative;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   text-align: left;
   color: rgb(208, 214, 249);
@@ -57,7 +57,6 @@
   z-index: 20;
 }
 
-
 .crew-function {
   font-family: "Bellefair", serif;
   font-weight: 400;
@@ -67,7 +66,6 @@
   flex-shrink: 0;
 }
 
-
 .crew-name {
   font-family: "Bellefair", serif;
   font-size: 56px;
@@ -76,17 +74,15 @@
   flex-shrink: 0;
 }
 
-
 .crew-text {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #d0d6f9;
-  max-width: 100%;
+  max-width: 50%;
   line-height: 1.6;
   height: 150px;
 }
-
 
 .crew-navigation {
   display: flex;
@@ -95,24 +91,24 @@
 }
 
 .crew-navigation button {
-background-color: transparent;
-border: 2px solid #5b5b5d;
-width: 25px;
-height: 25px;
-border-radius: 50%;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  background-color: transparent;
+  border: 2px solid #5b5b5d;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .crew-navigation button:hover {
-background-color: rgba(135, 136, 141, 0.6);
+  background-color: rgba(135, 136, 141, 0.6);
 }
 
 .crew-navigation button.active {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .crew-pic > img {
-object-fit: contain;
-align-self: flex-end;
+  object-fit: contain;
+  align-self: flex-end;
 }
