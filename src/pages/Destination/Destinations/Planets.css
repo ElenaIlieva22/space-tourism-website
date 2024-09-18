@@ -40,8 +40,6 @@
     z-index: 1;
     top: 22rem;
     left: 14rem;
-    border: 2px solid rgb(21, 247, 0);
-    border-radius: 50%;
 }
 
 .planets-content {
@@ -175,8 +173,6 @@
     .planets {
         top: 12rem;
         left: 28%;
-        border: 1px solid rgb(21, 247, 0);
-        border-radius: 50%;
     }
     .planets-jpg {
         width: 170px;
