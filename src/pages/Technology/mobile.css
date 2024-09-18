@@ -1,0 +1,72 @@
+@media (max-width: 768px){
+    .tech-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    } 
+      .tech-pic-box{
+        width: 100%;
+      }
+    .tech-content-box-text{
+        width: 100%;
+    }
+      .tech-pic {
+        object-fit: fill;
+        padding-top: 100px;
+        width: 100%;
+        height: 400px;
+      }
+      .tech-heading {
+          font-size: 20px;
+          letter-spacing: 3px;
+          text-align: center;
+        }
+      .tech-content-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       margin-left: 0;
+      }
+      
+        .tech-inscription {
+          flex-wrap: wrap;
+        }
+      
+        .btns {
+          flex-direction: row;
+          width: 100%;
+          justify-content: center;
+        }
+      
+        .btn {
+          width: 50px;
+          height: 50px; 
+          margin-right: 10px;
+        }
+      
+        .tech-terminology {
+          font-size: 14px;
+          text-align: center;
+        }
+      
+        .tech-title {
+          font-size: 36px;
+          text-align: center;
+        }
+      
+        .tech-text {
+          font-size: 16px;
+          text-align: center;
+      
+        }
+      
+        .tech-pic-tablet {
+          content:url(/public/images/technology/background-technology-tablet.jpg);
+          display: flex;
+          width: 100%;
+          height: 100%;
+        }
+      } 
+      

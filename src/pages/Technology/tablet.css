@@ -1,21 +1,35 @@
-  @media (max-width: 1024px) and (min-width: 768px)  {
+@media (max-width: 1024px) and (min-width: 768px)  {
 
   .tech-content {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    width: 100%;
   } 
 
   /* .tech-background {
     display: none;
   } */
-
-  .tech-heading {
+.tech-pic-box{
+  width: 100%;
+}
+.tech-pic {
+  object-fit: fill;
+  padding-top: 100px;
+  width: 100%;
+  height: 400px;
+}
+.tech-heading {
     font-size: 20px;
     letter-spacing: 3px;
     text-align: center;
   }
-
+.tech-content-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
   .tech-inscription {
     /* display: flex; */

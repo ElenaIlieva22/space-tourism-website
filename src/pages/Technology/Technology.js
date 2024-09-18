@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Technology.css";
 import "./tablet.css";
+import "./mobile.css";
 
 const techPages = [
   {
@@ -31,60 +32,42 @@ const Technology = () => {
 
   return (
     <div className="tech-container">
-      <div className="tech-background">
-        <img
-          src="./images/technology/background-technology-desktop.jpg"
-          className="tech-bg"
-          alt="Technology background"
-        />
-      </div>
+      <div className="tech-background"></div>
 
-      <div className="tech-content">
-        <div className="tech-content-box-text">
-          <div className="tech-heading">
-            <p>03 SPACE LAUNCH 101</p>
-          </div>
-          <div className="tech-inscription">
-            <div className="btns">
-              {techPages.map((_, index) => (
-                <div
-                  key={index}
-                  className={`btn ${index === currentPage ? "active" : ""}`}
-                  onClick={() => setCurrentPage(index)}
-                >
-                  {index + 1}
-                </div>
-              ))}
-            </div>
-            <div className="tech-content-box">
-              <p className="tech-terminology">
-                {techPages[currentPage].terminology}
-              </p>
-              <h2 className="tech-title">{techPages[currentPage].title}</h2>
-              <p className="tech-text">{techPages[currentPage].text}</p>
-            </div>
-          </div>
+      <div className="tech-content-main">
+        <div className="tech-heading">
+          <p>03 SPACE LAUNCH 101</p>
         </div>
-        <div className="tech-pic-box">
-          <img
-            src={techPages[currentPage].image}
-            className="tech-pic"
-            alt={techPages[currentPage].alt}
-          />
-
-          {/* <div className="tech-background-tablet">
+        <div className="tech-content">
+          <div className="tech-content-box-text">
+            <div className="tech-inscription">
+              <div className="btns">
+                {techPages.map((_, index) => (
+                  <div
+                    key={index}
+                    className={`btn ${index === currentPage ? "active" : ""}`}
+                    onClick={() => setCurrentPage(index)}
+                  >
+                    {index + 1}
+                  </div>
+                ))}
+              </div>
+              <div className="tech-content-box">
+                <p className="tech-terminology">
+                  {techPages[currentPage].terminology}
+                </p>
+                <h2 className="tech-title">{techPages[currentPage].title}</h2>
+                <p className="tech-text">{techPages[currentPage].text}</p>
+              </div>
+            </div>
+          </div>
+          <div className="tech-pic-box">
             <img
-              src="\images\technology\background-technology-tablet.jpg"
-              alt="Background tablet version"
+              src={techPages[currentPage].image}
+              className="tech-pic"
+              alt={techPages[currentPage].alt}
             />
           </div>
-
-          <div className="tech-pic-tablet">
-            <img
-              src="\images\technology\image-launch-vehicle-landscape.jpg"
-              alt="Launch vehicle tablet version"
-            />
-          </div> */}
         </div>
       </div>
     </div>
