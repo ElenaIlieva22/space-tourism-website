@@ -47,7 +47,7 @@ const Crew = () => {
       <div className="crew-content-main">
         <div>
           <p className="crheadingew-">
-            02 MEET YOUR CREW</p>
+            <span className="heading-n">02</span> MEET YOUR CREW </p>
         </div>
         <div className="crew-content">
           <div className="crew-inscription">

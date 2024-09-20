@@ -36,7 +36,9 @@ const Technology = () => {
 
       <div className="tech-content-main">
         <div className="tech-heading">
-          <p>03 SPACE LAUNCH 101</p>
+          <p className="techheadingew-">
+            <span className="techheading-n">03</span> SPACE LAUNCH 101
+          </p>
         </div>
         <div className="tech-content">
           <div className="tech-content-box-text">
