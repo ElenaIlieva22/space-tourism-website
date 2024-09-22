@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 99.6%;
+    height: 99.7%;
 }
 
 
@@ -45,7 +45,7 @@
 .planets-content {
     position: absolute;
     top: 25rem;
-    left: 83rem;
+    left: 63rem;
     transform: translateX(-50%);
     text-align: left;
     color: rgb(208, 214, 249);
@@ -96,28 +96,34 @@
 
     .planets-background {
         position: absolute;
-        width: 900px;
-        height: 1202px;
+        width: 100%;
+        height: 99.8%;
         z-index: 1;
         margin: 0;
     }
 
     .planets-heading {
-        top: 9rem;
-        left: 3rem;
+        top: 6rem;
+        left: 5rem;
         font-size: 20px;
         letter-spacing: 3px;
+        width: 40%;
+    }
+
+    .numbers {
+        color: rgb(114, 114, 114);
+        padding-right: 4%;
     }
 
     .planets {
-        top: 18rem;
-        left: 15rem;
+        top: 12rem;
+        left: 10rem;
         border: none;
     }
 
     .planets-content {
-        top: 53rem;
-        left: 60%;
+        top: 45rem;
+        left: 50%;
         transform: translateX(-50%);
         width: 70%;
         text-align: center;
@@ -154,24 +160,25 @@
     }
 
     .planets-background {
-        width: 375px;
-        height: 850px;
+        width: 100%;
+        height: 100%;
     }
 
     .planets-heading {
         font-family: "Barlow Condensed", sans-serif;
-        top: 6rem;
-        left: 4rem;
-        font-size: 18px;
+        top: 3rem;
+        left: 5rem;
+        font-size: 14px;
         letter-spacing: 2px;
+        width: 70%;
     }
     .numbers{
         color: rgb(62, 62, 63);
-        padding-right: 25px;
+        padding-right: 7%;
     }
 
     .planets {
-        top: 12rem;
+        top: 8rem;
         left: 28%;
     }
     .planets-jpg {
@@ -180,7 +187,7 @@
     }
 
     .planets-content {
-        top: 27rem;
+        top: 24rem;
         left: 50%;
         transform: translateX(-50%);
         width: 80%;
@@ -199,20 +206,27 @@
 
     .travel-info {
         grid-template-columns: 1fr;
-        padding-top: 0.5rem;
+        padding-top: 2rem;
         text-align: center;
+    }
+
+    .distance {
+        margin: 0%;
+        padding: 1%;
     }
     .time {
         order: 2;
+        margin: 0%;
+        padding: 1%;
     }
 
     .travel-info p {
         font-size: 12px;
-        letter-spacing: 2px;
+        letter-spacing: 0.2rem;
     }
 
     .travel-info h1 {
         font-size: 18px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 }

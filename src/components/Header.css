@@ -107,7 +107,7 @@
   }
 
   .header-container::after {
-      right: 120%;
+      right: 125%;
       transform: translate(-50%, -50%);
       width: 3rem;
       height: 3rem;
@@ -154,7 +154,7 @@
       content: '';
       position: absolute;
       bottom: 0;
-      left: 2.2vw;
+      left: 3vw;
       width: 70%;
       height: 0.2vh;
       background-color: transparent;
@@ -166,17 +166,16 @@
 
   .header-container {
   z-index: 10;
-  width: 100px;
-  height: 50px;
-  left: -120px;
-  background: none;  
+  width: 10%;
+  height: 100%;
+  background: none;
+  float: left;
+  left: 30%;
 }
 
 .header-container::after {
   content: '';
   position: absolute;
-  top: 90%;
-  right:160%;
   transform: translate(-50%, -50%);
   width: 3rem;
   height: 3rem;
@@ -187,15 +186,16 @@
   border-radius: 50%;
   background-size: 95%;
   z-index: 1;
+  top: 2rem;
 }
 
 .nav-menu {
   display: none;
   position: fixed;
   top: 0;
-  left: 115px;
-  width: 254px;
-  height: 667px;
+  left: 28%;
+  width: 15.5rem;
+  height: 37rem;
   padding-left: 5px;
   padding-top: 70px;
   backdrop-filter: blur(35px);
@@ -205,7 +205,6 @@
 
 .nav-menu.open {
   display: block;
-  
 }
 
 .nav-menu ul {
@@ -214,20 +213,19 @@
   align-items: flex-start;
   list-style: none;
   padding: 0;
-  margin: 0; 
-  
+  margin: 0;  
 }
 
 .nav-menu li {
   margin-top: 25px;
   display: flex;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .links a {
   color: #c4c3c3;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.5px;  
+  font-size: 0.9rem;
 }
 
 
@@ -236,8 +234,8 @@
   background: none;
   color: #ffffff;
   border: none;
-  padding-left: 290px;
-  position: relative;
+  margin-left: 27rem;
+  position: absolute;
   font-size: 25px;
   z-index: 1001;
 }
