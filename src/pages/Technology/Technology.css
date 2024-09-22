@@ -21,6 +21,25 @@
 }
 
 .tech-content-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  color: rgb(208, 214, 249);
+  z-index: 2;
+  width: 90%;
+  padding: 5% 5% 0% 5%;
+}
+
+.techheadingew- {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+}
+
+.techheading-n {
+  color: #3e3e3f;
+  font-weight: 700;
 }
 
 .tech-content {
