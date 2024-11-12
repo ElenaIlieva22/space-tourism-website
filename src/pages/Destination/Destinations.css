@@ -45,11 +45,6 @@
         margin: 0 1rem;
     }
 
-    .background {
-        width: 768px;
-        height: 1024px;    
-      }
-
     .destination-content {
         transform: translateY(5%);
         flex-direction: column;
