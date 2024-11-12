@@ -106,8 +106,7 @@
   .second {
     transform: rotate(90deg);
     margin-top: 25vh;
-    overflow: hidden;
-    width: 56%;
+    width: 55%;
   }
 
   .homepage-content {
